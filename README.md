@@ -1,5 +1,3 @@
-# simulated-dbs-clinical-prediction
-Reproducible R workflow for clinical prediction modelling using simulated DBS-style data.
 # Clinical Prediction Modelling Practice Project: Predicting Motor Outcome Using Simulated DBS-Style Data
 
 ## Project aim
