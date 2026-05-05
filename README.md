@@ -1,10 +1,14 @@
 # Clinical Prediction Modelling Practice Project: Predicting Motor Outcome Using Simulated DBS-Style Data
 
+## Project summary
+
+This project demonstrates a beginner-friendly, reproducible R workflow for clinical prediction modelling using simulated DBS-style data. It focuses on understanding modelling structure and interpretation rather than producing real clinical findings.
+
 ## Project aim
 
-This independent methodological project was developed to practise a reproducible R-based workflow for clinical prediction modelling in a DBS-relevant context. The project simulates a small clinical-style dataset containing demographic, motor, neuropsychological, mood, and imaging-derived proxy variables, then uses regression-based approaches to predict simulated motor improvement after subthalamic deep brain stimulation.
+This independent methodological project was developed to practise a reproducible R-based workflow for clinical prediction modelling in a DBS-relevant context. 
 
-This project is intended as a methodological learning exercise. It does not use real patient data and does not make clinical claims about DBS outcomes.
+This project is intended as a methodological learning exercise. It does not use real patient data and does not make clinical claims about DBS outcomes. The project uses a simulated clinical-style dataset containing demographic, motor, neuropsychological, mood, and imaging-derived proxy variables, and applies regression-based approaches to predict simulated motor improvement following subthalamic deep brain stimulation.
 
 ## Why simulated data were used
 
@@ -65,7 +69,7 @@ This project has several important limitations:
 
 ## Relevance to PhD application
 
-This project is relevant to PhD training in multilevel modelling of DBS outcomes because it demonstrates preparation in clinical prediction modelling, reproducible R workflows, interpretable regression, penalized regression, cross-validation, and cautious reporting of methodological limitations.
+This project is relevant to PhD training in multilevel modelling of DBS outcomes as it demonstrates foundational preparation in clinical prediction modelling, including reproducible R workflows, interpretable regression, penalized regression, cross-validation, and critical evaluation of methodological limitations.
 
 The project aligns with my background in medicine, cognitive and clinical neuroscience, neurological assessment, cognitive screening, and beginner-to-intermediate R. It provides a transparent example of how I am preparing to develop stronger quantitative skills for clinical neuroscience research.
 
@@ -80,3 +84,24 @@ The project was written in R using common packages including:
 ## Ethical note
 
 No real patient data were used. All data are simulated for methodological training purposes only.
+
+## Important note
+
+This project uses simulated DBS-style data only.
+
+The dataset is generated within the R script for methodological practice in clinical prediction modelling.
+
+## How to run the project
+
+1. Open the R script in R or RStudio
+2. Install required packages if needed:
+   - tidyverse
+   - glmnet
+   - broom
+3. Run the script to:
+   - generate the simulated dataset
+   - fit regression models
+   - produce plots and outputs
+## Future directions
+
+Future extensions of this project could include hierarchical (multilevel) modelling and Bayesian approaches, which are particularly relevant to DBS outcome research.
